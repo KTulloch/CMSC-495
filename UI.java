@@ -1,3 +1,18 @@
+/*
+UMUC CMSC 495 6380
+Forget Me Not
+Group 8
+Members: Robert Hunter Robinson
+Jered Russell
+Keith Tulloch
+
+Due Date: Sunday October 7th, 2018
+Revision History:
+October 6th - Keith - Initial Creation
+October 7th - Hunter - Package addition, and month number corrections to start at 1.
+ */
+package forgetmenot;
+
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JLabel;
@@ -402,18 +417,18 @@ public class UI extends JFrame{
     // monthToInt
     private int monthToInt(String s){
         switch(s){
-            case "January": return 0;
-            case "February": return 1;
-            case "March": return 2;
-            case "April": return 3;
-            case "May": return 4;
-            case "June": return 5;
-            case "July": return 6;
-            case "August": return 7;
-            case "September": return 8;
-            case "October": return 9;
-            case "November": return 10;
-            case "December": return 11;
+            case "January": return 1;
+            case "February": return 2;
+            case "March": return 3;
+            case "April": return 4;
+            case "May": return 5;
+            case "June": return 6;
+            case "July": return 7;
+            case "August": return 8;
+            case "September": return 9;
+            case "October": return 10;
+            case "November": return 11;
+            case "December": return 12;
         }
         return -1;
     }
